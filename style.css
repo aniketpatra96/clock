@@ -1,0 +1,75 @@
+#text{
+    color:red;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#current_time{
+    color:brown;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ #clockContainer {
+     position: relative;
+     margin: auto;
+     height: 40vw;
+     /*to make the height and width responsive*/
+     width: 40vw;
+     background: url(./images/clock.jpg) no-repeat;
+     /*setting our background image*/
+     background-size: 100%;
+ }
+
+ #hour,
+ #minute,
+ #second {
+     position: absolute;
+     background: black;
+     border-radius: 10px;
+     transform-origin: bottom;
+ }
+
+ #hour {
+     width: 1.8%;
+     height: 25%;
+     top: 25%;
+     left: 48.85%;
+     opacity: 0.8;
+ }
+
+ #minute {
+     width: 1.6%;
+     height: 30%;
+     top: 19%;
+     left: 48.9%;
+     opacity: 0.8;
+ }
+
+ #second {
+     width: 1%;
+     height: 40%;
+     top: 9%;
+     left: 49.25%;
+     opacity: 0.8;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ #footer{
+    font-family:'Pacifico',cursive;
+    color:#6527BE;
+    font-size:32px;
+    text-align:center;
+ }
+
+ body{
+    background-color: aliceblue;
+ }
+
+ #time{
+    
+ }
